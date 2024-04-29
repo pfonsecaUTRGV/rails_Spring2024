@@ -41,7 +41,10 @@ gem "tzinfo-data", platforms: %i[ windows jruby ]
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
+<<<<<<< HEAD
 # Gem used to manage user sessions
+=======
+>>>>>>> 0ec91cea4d20bbb0ad7c1dc88e9df67dc2f021af
 gem 'devise', '~> 4.9', '>= 4.9.4'
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]

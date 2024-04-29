@@ -69,7 +69,11 @@ Rails.application.configure do
 
   # Use a real queuing backend for Active Job (and separate queues per environment).
   # config.active_job.queue_adapter = :resque
+<<<<<<< HEAD
   # config.active_job.queue_name_prefix = "spring_se_production"
+=======
+  # config.active_job.queue_name_prefix = "dirapp_production"
+>>>>>>> 0ec91cea4d20bbb0ad7c1dc88e9df67dc2f021af
 
   config.action_mailer.perform_caching = false
 
@@ -94,7 +98,13 @@ Rails.application.configure do
   # ]
   # Skip DNS rebinding protection for the default health check endpoint.
   # config.host_authorization = { exclude: ->(request) { request.path == "/up" } }
+<<<<<<< HEAD
   
   #config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 
+=======
+
+  #Device (login) mailer configuration
+  #config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+>>>>>>> 0ec91cea4d20bbb0ad7c1dc88e9df67dc2f021af
 end

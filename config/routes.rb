@@ -1,9 +1,17 @@
 Rails.application.routes.draw do
   devise_for :users
+<<<<<<< HEAD
   resources :students
   #get 'home/index'
   root 'home#index'
   get  'home/test'
+=======
+  
+  resources :data
+  #get 'home/index'
+  root 'home#index'
+  get 'home/page_b'
+>>>>>>> 0ec91cea4d20bbb0ad7c1dc88e9df67dc2f021af
 
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 

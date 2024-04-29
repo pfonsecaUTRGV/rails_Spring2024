@@ -6,7 +6,11 @@ require "rails/all"
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
+<<<<<<< HEAD
 module SpringSe
+=======
+module Dirapp
+>>>>>>> 0ec91cea4d20bbb0ad7c1dc88e9df67dc2f021af
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 7.1
